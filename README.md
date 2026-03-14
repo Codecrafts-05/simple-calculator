@@ -1,27 +1,14 @@
-print("Simple Calculator")
+# Simple Calculator
 
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
+This is a basic calculator program written in Python.
 
-print("Choose operation")
-print("1. Add")
-print("2. Subtract")
-print("3. Multiply")
-print("4. Divide")
+## Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
-choice = input("Enter choice (1/2/3/4): ")
-
-if choice == "1":
-    print("Result =", a + b)
-
-elif choice == "2":
-    print("Result =", a - b)
-
-elif choice == "3":
-    print("Result =", a * b)
-
-elif choice == "4":
-    print("Result =", a / b)
-
-else:
-    print("Invalid input")
+## How to Run
+1. Install Python
+2. Run the file:
+   python calculator.py
